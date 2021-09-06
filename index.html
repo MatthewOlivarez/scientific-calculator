@@ -2,10 +2,70 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Scientific Calculator</title>
+	<link rel="stylesheet" type="text/css" href="/bulma/css/bulma.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	
 </head>
 <body>
+	<nav class="navbar" role="navigation" aria-label="main navigation">
 
+	  <div id="navbarBasicExample" class="navbar-menu">
+	    <div class="navbar-end">
+	      <div class="navbar-item">
+	        <div class="buttons">
+	          <a class="button is-primary">
+	            <strong>Sign up</strong>
+	          </a>
+	          <a class="button is-light">
+	            Log in
+	          </a>
+	          <a class="navbar-item">
+		        Home
+		      </a>
+
+		      <a class="navbar-item">
+		        Documentation
+		      </a>
+	        </div>
+	      </div>
+	    </div>
+	</nav>
+	
+
+	<h1>Scientific Calculator</h1>
+	<h3>using newton-api</h3>
+
+	<div class="operation-dropdown">
+		<button class="drop-button">Choose Operation</button>
+		<div class="operations">
+			<p>Simplify</p>
+			<p>Factor</p>
+			<p>Derive</p>
+			<p>Integrate</p>
+			<p>Find Zeroes</p>
+			<p>Find Tangent</p>
+			<p>Area Under Curve</p>
+			<p>Cosine</p>
+			<p>Sine</p>
+			<p>Tangent</p>
+			<p>Inverse Cosine</p>
+			<p>Inverse Sine</p>
+			<p>Inverse Tangent</p>
+			<p>Absolute Value</p>
+			<p>Logarithm</p>
+		</div>
+	</div>
+
+	<button>Solve</button>
+
+
+
+
+
+
+	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
